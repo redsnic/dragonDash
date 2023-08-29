@@ -11,7 +11,7 @@ kwargs = {
     "class" : "maindiv"
 }
 
-language = "de"
+language = "de" # de en
 
 locale = {
 #### ENGLISH TRANSLATION ####
@@ -20,17 +20,17 @@ locale = {
         # main_text is in markdown format
         "main_text" : """ 
 Some scientist have discovered that dragon eggs can be exposed to different conditions to make the newborn dragons perfectly adapted to 
-different natural enviroment. Even though they understood the principle of the conditions that should be met, they still don't know how to handle the eggs
+different natural environments. Even though they understood some of the final conditions that should be met, they still don't know how to handle the eggs
 properly. Can you help them?
         
 You have recieved a note with some instructions on how to use the dragon egg incubator interface:
         
-1. Set up the target environment in the **Environment** section. This will help you understand the target expression the genes. 
+1. Set up the environment in the **Target environment** section. This will help you understand the target expression of the genes. 
 2. The **Incubator controls** panel provides you with access to the working parameters for the egg's environment. Your goal is to find the right ones so that the egg will hatch!
 3. Once you are done setting the parameters, you can use the **Start incubation** button to apply them. You will observe how the expression of the genes will
-    change immediately in the **Monitor** section. The intervals show the target expression that you should reach for each gene at the final time.
+    change immediately in the **Monitor** section. The colored intervals on the right show the target expression that you should reach for each gene at the final time.
 4. By clicking the **Check your egg** button, you can see if you managed to hatch the egg and, if that is the case, see the dragon itself!
-5. For each environment there is an hidden dragon variant that you can find by playing with the parameters. Can you follow the hints and find them all?
+5. For each environment there is an **hidden dragon** variant that you can find by playing with the parameters. Can you follow the **hints in the environment description** and find them all?
 
 Time to get to work!   
         """,
@@ -40,7 +40,7 @@ Time to get to work!
             f_hot="Incubation temperature (Celsius)",
             humidity="Humidity (%)",
             thermocline="Day/Night temperature difference (0 to 1)",
-            diet="Nutrient supplement (Kcal)",
+            diet="Nutrient supplement (kcal)",
             sunscreen="Light exposure (0 total darkness, 1 full lighting)",
             run="Start incubation",
             show="Check your egg"
@@ -69,27 +69,27 @@ Time to get to work!
         ),
         "environments" : dict(
             title = "Target environment",            
-            volcano = "Volcano dragons can cope with extreme high temperatures. Their coulour helps them to blend in with the lava. There is a rumor that some of them live in caves hidden within volcanos, where nothing else can survive [Secret].",
-            forest  = "Forest dragons are adapted to live among the vegetation of their habitat. Their green colour helps them to blend in with the leaves. It is said that some variants can produce only green pigments [Secret].",
+            volcano = "Volcano dragons can cope with extremely high temperatures. Their colour helps them to blend in with the lava. There is a rumor that some of them live in caves hidden within volcanos, where nothing else can survive [Secret].",
+            forest  = "Forest dragons are adapted to live among the vegetation of their habitat. Their green colour helps them to blend in with the leaves. It is said that some variants can produce only green pigments and have no scale or fur expression [Secret].",
             ocean   = "Ocean dragons live both over and under water and they are always blue in color. \n Some of them have a balanced amount of scales and fur, but this combination also changes their shape [Secret].",
-            desert  = "Desert dragons can survive the hostile conditions of the desert. Based on the pigments they express, some of them can look like sand, while others have a metallic appearance that resembles copper [Secret].",
-            arctic  = "Artic dragons can only survive at sub-zero temperatures. They are usually white, but some of them can express a small amount of blue pigments to seem as made of ice [Secret].",
+            desert  = "Desert dragons can survive the hostile conditions of the desert. Based on the pigments they express, some of them can look like sand, while others have a copper-like metallic appearance [Secret].",
+            arctic  = "Arctic dragons can only survive at sub-zero temperatures. They are usually white, but some of them can express a small amount of blue pigments to seem as made of ice [Secret].",
         ),
     },
 #### GERMAN TRANSLATION ####
     "de" : { # TODO
-        "title" : "How to pimp your dragon",
+        "title" : "Zellen kontrollieren oder: Wie man einen Drachen pimpt",
         # main_text is in markdown format
         "main_text" : """ 
 Wissenschaftler haben herausgefunden, dass Dracheneier verschiedenen Bedingungen ausgesetzt werden können, um die neugeborenen Drachen perfekt an unterschiedliche Umgebungen anzupassen.
-Aber selbst wenn sie im Prinzip verstanden haben, was das Endresultat sein soll, wissen sie immer noch nicht, wie sie die Eier ausbrueten müssen um die entsprechenden
+Aber selbst wenn sie im Prinzip verstanden haben, was das Endresultat sein soll, wissen sie immer noch nicht, wie sie die Eier ausbrüeten müssen um die entsprechenden
 Resultate zu erreichen. 
 Kannst du ihnen helfen? 
 Du hast eine Nachricht mit einigen Anweisungen zur Verwendung des Drachenei-Brutschranks erhalten: 
 
-1. Wähle die Zielumgebung im Abschnitt **Umgebung** aus. Dann werden dir die Ziel-Level der Gene angezeigt. 
-2. Über das Bedienfeld **Inkubatorsteuerung** hast du Zugriff auf die Einstellungen für die Umgebung des Eies. Dein Ziel ist es, die richtigen zu finden, damit das Ei schlüpfen kann! 
-3. Sobald du mit dem Einstellen der Parameter fertig bist, kannst du die Schaltfläche **Inkubation starten** verwenden, um sie anzuwenden. Im Abschnitt **Beobachtung** kannst du dann die Auswirkungen der Bruteinstellungen auf die Genablesung sehen. Die markierten Intervalle zeigen die Ziellevel an, die du für jedes Gen erreichen solltest. 
+1. Wähle die Umgebung im Abschnitt **Zielumgebung** aus. Dann werden dir die Ziellevel der Gene angezeigt. 
+2. Über das Bedienfeld **Brutschrankparameter** hast du Zugriff auf die Einstellungen für die Umgebung des Eies. Dein Ziel ist es, die richtigen zu finden, damit das Ei schlüpfen kann! 
+3. Sobald du mit dem Einstellen der Parameter fertig bist, kannst du die Schaltfläche **Ausbrüeten** verwenden, um sie anzuwenden. Im Abschnitt **Proteinlevel-Anzeige** kannst du dann die Auswirkungen der Bruteinstellungen auf die Proteinlevel sehen. Die markierten Intervalle zeigen die Ziellevel an, die du für jedes Gen erreichen solltest. 
 4. Mit der Schaltfläche **Überprüfe dein Ei** kannst du sehen, ob du es geschafft hast, das Ei auszubrüten, und wenn das der Fall ist, auch den Drachen selbst! 
 5. Für jede Umgebung gibt es eine versteckte Drachenvariante, die du finden kannst, indem du mit den Einstellungen spielst. Kannst du den Hinweisen folgen und sie alle finden?
 
@@ -101,7 +101,7 @@ Mach dich an die Arbeit und hilf den Wissenschaftlern die Drachen anzupassen!
             f_hot="Temperatur (Celsius)",
             humidity="Luftfeuchtigkeit (%)",
             thermocline="Temperaturunterschied Tag/Nacht (0 to 1)",
-            diet="Nährstoffe (Kcal)",
+            diet="Nährstoffe (kcal)",
             sunscreen="Licht (0 komplette Dunkelheit, 1 helles Licht)",
             run="Ausbrüten",
             show=" Überprüfe dein Ei"
@@ -131,15 +131,63 @@ Mach dich an die Arbeit und hilf den Wissenschaftlern die Drachen anzupassen!
         "environments" : dict(
             title = "Zielumgebung",            
             volcano = "Vulkandrachen können mit extrem hohen Temperaturen umgehen. Ihre Farbe hilft ihnen, mit der Lava zu verschmelzen. Es geht das Gerücht um, dass einige von ihnen in Höhlen leben, die in Vulkanen versteckt sind, wo nichts anderes überleben kann [Geheimtipp].",
-            forest  = "Walddrachen sind an die Vegetation ihres Lebensraums angepasst. Ihre grüne Farbe hilft ihnen, mit den Blättern zu verschmelzen. Es wird gesagt, dass einige Varianten nur grüne Pigmente erzeugen können [Geheimtipp].",
+            forest  = "Walddrachen sind an die Vegetation ihres Lebensraums angepasst. Ihre grüne Farbe hilft ihnen, mit den Blättern zu verschmelzen. Es wird gesagt, dass einige Varianten nur grüne Pigmente erzeugen können und keine Schuppen oder Fell haben [Geheimtipp].",
             ocean   = "Ozeandrachen leben sowohl über als auch unter Wasser und haben immer eine blaue Farbe. \n Einige von ihnen haben eine ausgewogene Menge an Schuppen und Fell, aber diese Kombination verändert auch ihre Form [Geheimtipp].",
             desert  = "Wüstendrachen können die lebensfeindlichen Bedingungen der Wüste überleben. Aufgrund ihrer Pigmente können einige von ihnen wie Sand aussehen, während andere ein metallisches Aussehen haben, das Kupfer ähnelt [Geheimtipp].",
-            arctic  = "Polardrachen können nur bei Minusgraden überleben. Sie sind normalerweise weiß, aber einige von ihnen können eine kleine Menge blauer Pigmente ausdrücken, um den Anschein zu erwecken, als wären sie aus Eis [Geheimtipp].",
+            arctic  = "Polardrachen können nur bei Minusgraden überleben. Sie sind normalerweise weiß, aber einige von ihnen können eine kleine Menge blauer Pigmente produzieren, um den Anschein zu erwecken, als wären sie aus Eis [Geheimtipp].",
         ),
     },
 }
 
-app_ui = ui.page_fixed(
+icons = {
+    "f_hot" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wKQ2fDdISXS5B9zq-mjWhLOVKee7b5SMNsG40lD_pkqbpnDjAiCzcSpwOZVLf35Atx0j7OBNJkp__6sTGQ4WkVf9h0HQ=s2560",
+    "humidity" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-xYKEwdl9_rgky4wRLmaqaXES3Bcgj_xL6rnqkf2-Ubiv7-LoKIhhJjUpEcGqGM8Of1yU2SpNVUM_aDsJ3iTO11E0hrBQ=s2560",
+    "thermocline" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wxF5hu7LQPx-apIib_ePt2pznIgCyTBRp0jb5pucbyBfXnzVZo5msCH1Fyvum_Septru2PFhmeQDqgwnhj6I_sBDeS=s2560",
+    "diet" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-zW4qtqw0U0SGantcY17IS28Jr7mgpdLCOP_3tkO7nTGYOSZSYf3UYwXzKtygFv7BHEOIikXdnBtofQyFNQ1KXLUVJW=s2560",
+    "sunscreen" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wHnPDGbPA_5tMAE0riNlCNjQm75-scm7dHy92ButS83piDVKdc4Q7lgxauCcoxZ6QvA7dlsC2zUPk7gVC0q9wcCkXA-A=s2560"
+}
+slider_min = {
+    "f_hot" : 0,
+    "humidity" : 0,
+    "thermocline" : 0,
+    "diet" : 0,
+    "sunscreen" : 0
+}
+slider_max = {
+    "f_hot" : 50,
+    "humidity" : 100,
+    "thermocline" : 1,
+    "diet" : 2000,
+    "sunscreen" : 1
+}
+slider_val = {
+    "f_hot" : 36,
+    "humidity" : 30,
+    "thermocline" : 0.5,
+    "diet" : 600,
+    "sunscreen" : 0.5
+}
+slider_step = {
+    "f_hot" : 50/100,
+    "humidity" : 1,
+    "thermocline" : 0.01,
+    "diet" : 2000/100,
+    "sunscreen" : 0.01
+}
+
+sliders = []
+    
+for k in ["f_hot", "humidity", "thermocline", "diet", "sunscreen"]:
+    div = ui.tags.div()
+    img = ui.HTML(f"<div style=\"width: 50px; height: 50px; float:right; background-size: cover; background-image : url({icons[k]}); text-align: center;\"></div>")
+    div.children.append(img)
+    inner_div = ui.tags.div()
+    inner_div.attrs["style"] = "width: 80%;"
+    inner_div.children.append(ui.input_slider(k, locale[language]["incubator_UI"][k], slider_min[k], slider_max[k], value=slider_val[k], step=slider_step[k]))
+    div.children.append(inner_div)
+    sliders.append(div)
+
+app_ui = ui.page_fluid(
     ui.tags.style(
         """
         body {
@@ -149,7 +197,7 @@ app_ui = ui.page_fixed(
             background-color: #FFFFFF
         }
         .maindiv {
-            opacity:1;color:black;box-shadow:0px 0px 20px 20px #888888;background-image:url(https://static.vecteezy.com/system/resources/previews/000/584/379/original/abstract-white-paper-textured-background-for-design-your-work-texture-vector.jpg)
+            width:80%;opacity:1;color:black;box-shadow:0px 0px 20px 20px #888888;background-image:url(https://static.vecteezy.com/system/resources/previews/000/584/379/original/abstract-white-paper-textured-background-for-design-your-work-texture-vector.jpg)
         }
         .modal.show{
             background-image: url(https://img.freepik.com/premium-vector/japanese-vintage-elements-seamless-pattern-with-angry-poisonous-snake-dangerous-fantasy-dragon-chrysanthemum-sakura-flowers_225004-2582.jpg)
@@ -235,20 +283,16 @@ app_ui = ui.page_fixed(
     ui.layout_sidebar(
         ui.panel_sidebar(
             ui.HTML(f'<h3>{locale[language]["incubator_UI"]["title"]}</h3>'),
-            #ui.HTML('<hr>'),
-            ui.input_slider("f_hot", locale[language]["incubator_UI"]["f_hot"], 0, 50, value=36, step=50/100),
-            ui.input_slider("humidity", locale[language]["incubator_UI"]["humidity"], 0, 100, value=30, step=1),
-            ui.input_slider("thermocline", locale[language]["incubator_UI"]["thermocline"], 0, 1, value=0.5, step=0.01),
-            ui.input_slider("diet", locale[language]["incubator_UI"]["diet"], 0, 2000, value=600, step=2000/100),
-            ui.input_slider("sunscreen", locale[language]["incubator_UI"]["sunscreen"], 0, 1, value=0.5, step=0.01),
+            ui.HTML('<hr>'),
+            *sliders,
             ui.input_action_button("run", locale[language]["incubator_UI"]["run"]),
             ui.HTML('<hr>'),
-            ui.input_action_button("show", locale[language]["incubator_UI"]["show"], class_="btn-primary"),
+            ui.input_action_button("show", locale[language]["incubator_UI"]["show"], class_="btn-primary")
         ),
         ui.panel_main(
             ui.HTML(f'<h3>{locale[language]["monitor_UI"]["title"]}</h3>'),
             ui.output_plot("plot", height = '100%'),
-            style="border-color:#444444;border-width:2px;border-style:solid;box-shadow:5px 0px 5px -5px #AAAAAA;",
+            style="border-color:#444444;border-width:2px;border-style:solid;box-shadow:5px 0px 5px -5px #AAAAAA;height:inherit",
         )
     ),
     ui.HTML('<hr>'),
@@ -475,7 +519,7 @@ def server(input, output, session):
             ax.set_ylim((0,1.2))
 
         
-        for (pos, l) in enumerate(["fur", "feathers", "scales"]):
+        for (pos, l) in enumerate(["scales", "fur", "feathers"]):
             ax = plt.subplot2grid((2,12), (1,pos*4), colspan=4)
             ax.grid(True)
             i = I[l]
@@ -521,7 +565,7 @@ def server(input, output, session):
                 title=locale[language]["modal"]["success"],
                 easy_close=True,
                 footer=locale[language]["modal"]["info"],
-                size='l',
+                size='m',
                 fade=False,
                 style="background-image:url(https://static.vecteezy.com/system/resources/previews/000/584/379/original/abstract-white-paper-textured-background-for-design-your-work-texture-vector.jpg)",
             )
@@ -534,7 +578,7 @@ def server(input, output, session):
                 title=locale[language]["modal"]["special"],
                 easy_close=True,
                 footer=locale[language]["modal"]["info"],
-                size='l',
+                size='m',
                 fade=False,
                 style="background-image:url(https://static.vecteezy.com/system/resources/previews/000/584/379/original/abstract-white-paper-textured-background-for-design-your-work-texture-vector.jpg)",
             )
@@ -545,7 +589,7 @@ def server(input, output, session):
                 title=locale[language]["modal"]["failure"],
                 easy_close=True,
                 footer=locale[language]["modal"]["info"],
-                size='l',
+                size='m',
                 fade=False,
                 style="background-image:url(https://static.vecteezy.com/system/resources/previews/000/584/379/original/abstract-white-paper-textured-background-for-design-your-work-texture-vector.jpg)",
             )
