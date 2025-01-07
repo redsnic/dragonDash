@@ -11,7 +11,7 @@ kwargs = {
     "class" : "maindiv"
 }
 
-language = "de" # de en
+language = "en" # de en
 
 locale = {
 #### ENGLISH TRANSLATION ####
@@ -140,11 +140,11 @@ Mach dich an die Arbeit und hilf den Wissenschaftlern die Drachen anzupassen!
 }
 
 icons = {
-    "f_hot" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wKQ2fDdISXS5B9zq-mjWhLOVKee7b5SMNsG40lD_pkqbpnDjAiCzcSpwOZVLf35Atx0j7OBNJkp__6sTGQ4WkVf9h0HQ=s2560",
-    "humidity" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-xYKEwdl9_rgky4wRLmaqaXES3Bcgj_xL6rnqkf2-Ubiv7-LoKIhhJjUpEcGqGM8Of1yU2SpNVUM_aDsJ3iTO11E0hrBQ=s2560",
-    "thermocline" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wxF5hu7LQPx-apIib_ePt2pznIgCyTBRp0jb5pucbyBfXnzVZo5msCH1Fyvum_Septru2PFhmeQDqgwnhj6I_sBDeS=s2560",
-    "diet" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-zW4qtqw0U0SGantcY17IS28Jr7mgpdLCOP_3tkO7nTGYOSZSYf3UYwXzKtygFv7BHEOIikXdnBtofQyFNQ1KXLUVJW=s2560",
-    "sunscreen" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wHnPDGbPA_5tMAE0riNlCNjQm75-scm7dHy92ButS83piDVKdc4Q7lgxauCcoxZ6QvA7dlsC2zUPk7gVC0q9wcCkXA-A=s2560"
+    "f_hot" : "https://ctbs.scientifica.ethz.ch/res/logos/temperature.png",
+    "humidity" : "https://ctbs.scientifica.ethz.ch/res/logos/humidity.png",
+    "thermocline" : "https://ctbs.scientifica.ethz.ch/res/logos/daynight.png",
+    "diet" : "https://ctbs.scientifica.ethz.ch/res/logos/food.png",
+    "sunscreen" : "https://ctbs.scientifica.ethz.ch/res/logos/light.png"
 }
 slider_min = {
     "f_hot" : 0,
@@ -191,7 +191,7 @@ app_ui = ui.page_fluid(
     ui.tags.style(
         """
         body {
-            background-image: url(https://img.freepik.com/premium-vector/japanese-vintage-elements-seamless-pattern-with-angry-poisonous-snake-dangerous-fantasy-dragon-chrysanthemum-sakura-flowers_225004-2582.jpg)
+            background-image: url(https://ctbs.scientifica.ethz.ch/res/bg_pattern.avif)
         }
         div {
             background-color: #FFFFFF
@@ -200,7 +200,7 @@ app_ui = ui.page_fluid(
             width:80%;opacity:1;color:black;box-shadow:0px 0px 20px 20px #888888;background-image:url(https://static.vecteezy.com/system/resources/previews/000/584/379/original/abstract-white-paper-textured-background-for-design-your-work-texture-vector.jpg)
         }
         .modal.show{
-            background-image: url(https://img.freepik.com/premium-vector/japanese-vintage-elements-seamless-pattern-with-angry-poisonous-snake-dangerous-fantasy-dragon-chrysanthemum-sakura-flowers_225004-2582.jpg)
+            background-image: url(https://ctbs.scientifica.ethz.ch/res/bg_pattern.avif)
         }
         .modal-content{
             border-color:#444444;border-width:2px;border-style:solid;opacity:1;color:black;box-shadow:0px 0px 20px 20px #888888;
@@ -407,19 +407,19 @@ setpoints_dict_alt["arctic"] = { # ice dragon
 }
 
 dragon_urls = {
-    "volcano" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-zyuwT1Zz9rs90pQhfxeGu7kIsyK_uuiUi3S4r72TguQjGKB56oR3m4s2ZNpwBKXvoDeksjORnuK9ByW02egLpGli-Yjg=s1600",
-    "forest"  : "https://lh3.googleusercontent.com/drive-viewer/AITFw-zMnjWPE-ls0BVlyXZj6_A7X_YLP_OL7cRNoGdluuRQSPGySLcP2nKw9Ms4MtHsKeFTfWabRx2O2Mvs3CNLl6cyk5HIWw=s1600",
-    "ocean"   : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wOxMaSDFnUsLGHjqpl1pcCA9U-gpLNQl8lMa0C9xBRYnrE0sEqY_ROmUw97aCRTm1PXDkFCkEUENjZn-iHA3-ydRhyLQ=s1600",
-    "desert"  : "https://lh3.googleusercontent.com/drive-viewer/AITFw-yImnNgBpsFyIcqQ6Z4AGC0eXpothT8IDvS1qK6W3un1CXrpxgUfdGn5aBKh_wGq2CXx9LTcvkyS1ViE-TOQPZvgXGmRg=s1600",
-    "arctic"  : "https://lh3.googleusercontent.com/drive-viewer/AITFw-x9fujdnfjDdgTdVqoV8KQwHDyUTuTDhvNoHBeRcf66ga_xzyyhNfpzrEoX5cb8F2F7GT2IafS0Ma85bLyLHX5K-yaung=s1600",
+    "volcano" : "https://ctbs.scientifica.ethz.ch/res/normal/volcano.png",
+    "forest"  : "https://ctbs.scientifica.ethz.ch/res/normal/forest.png",
+    "ocean"   : "https://ctbs.scientifica.ethz.ch/res/normal/ocean.png",
+    "desert"  : "https://ctbs.scientifica.ethz.ch/res/normal/desert.png",
+    "arctic"  : "https://ctbs.scientifica.ethz.ch/res/normal/arctic.png",
 }
 
 dragon_urls_alt = { # TODO
-    "volcano" : "https://lh3.googleusercontent.com/drive-viewer/AITFw-x1iZPrYZ-HJoSbm0W3j6Mw2OdvyLi8azqXLqIHc4STwQYAx030ePYWrP93Y_cU9huu5L9v9rON75K8CXaogWkEQc2WMw=s1600",
-    "forest"  : "https://lh3.googleusercontent.com/drive-viewer/AITFw-y4ghWSOyb1dOjOMnhqvpIJG1-3D3PzQamdvaH1IAc5qPQxLv10qmTUFOWX4ihNcIfD7u9DyBWw2iOnnJlpy9CC-NJITQ=s1600",
-    "ocean"   : "https://lh3.googleusercontent.com/drive-viewer/AITFw-yxunUZqrokfrrIWLj63zLKL1mIev-4vngrSOT6eCQLC8RMN48IFWZh6bX1mK03TP9ze5obj02CVIC0wgPj_7Vs1S7yUQ=s1600",
-    "desert"  : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wTn-q2vl-vMr_3Tt37ZItDqk5Pl-XIwxPXF9jUiNPZLxqAWdwu2czmCvDpfO6CmfezzWS3M4bufegavnpIT2F7PGXDtg=s1600",
-    "arctic"  : "https://lh3.googleusercontent.com/drive-viewer/AITFw-wsBZE_wL3G81MbCNUaGg9bLWHbnxrvWCRhzixR8TakceCeDpF7tSOkz2xScM8E7FP0mQ8RyM_poBO_EvAHFUyFPZ7-AA=s1600",
+    "volcano" : "https://ctbs.scientifica.ethz.ch/res/variations/volcano.png",
+    "forest"  : "https://ctbs.scientifica.ethz.ch/res/variations/forest.png",
+    "ocean"   : "https://ctbs.scientifica.ethz.ch/res/variations/ocean.png",
+    "desert"  : "https://ctbs.scientifica.ethz.ch/res/variations/desert.png",
+    "arctic"  : "https://ctbs.scientifica.ethz.ch/res/variations/arctic.png",
 }
 
 colors = {
@@ -585,7 +585,7 @@ def server(input, output, session):
             ui.modal_show(m) 
         else: 
             m = ui.modal(
-                ui.HTML('<div style="text-align:center;background-image:url(https://static.vecteezy.com/system/resources/previews/000/584/379/original/abstract-white-paper-textured-background-for-design-your-work-texture-vector.jpg)"><h3></h3><img src="https://lh3.googleusercontent.com/drive-viewer/AITFw-zRUCixU9Ub3CFs7y2iCwstJ4hW8Ol1qPVYXpX0Y8bYYAPq0T5f8nqjRik5RnWOnj5MQzf_wphFZJQiNSlYyPpEZhHomQ=s1600" alt="EGG" style="width:80%;text-align:center;height:90%"></div>'),
+                ui.HTML('<div style="text-align:center;background-image:url(https://static.vecteezy.com/system/resources/previews/000/584/379/original/abstract-white-paper-textured-background-for-design-your-work-texture-vector.jpg)"><h3></h3><img src="https://ctbs.scientifica.ethz.ch/res/normal/Dragon_Egg_Incubator.png" alt="EGG" style="width:80%;text-align:center;height:90%"></div>'),
                 title=locale[language]["modal"]["failure"],
                 easy_close=True,
                 footer=locale[language]["modal"]["info"],
